@@ -39,3 +39,21 @@ let package = Package(
             dependencies: ["MyLibraries"]),
     ]
 )
+
+// MARK: - Conditional array helpers
+
+private func flatten<Element>(_ items: [[Element]]) -> [Element] {
+    return items.flatMap { $0 }
+}
+
+private func always<Element>(use items: [Element]) -> [Element] {
+    return items
+}
+
+private func when<Element>(_ condition: Bool, use items: [Element]) -> [Element] {
+    if condition {
+        return items
+    } else {
+        return []
+    }
+}
