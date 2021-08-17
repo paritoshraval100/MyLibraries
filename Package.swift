@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "Package1",
             targets: ["Package1"]),
+        .library(
+            name: "Package2",
+            targets: ["Package2"]),
 
     ],
     dependencies: [
@@ -27,6 +30,9 @@ let package = Package(
             dependencies: []),
         .target(
             name: "Package1",
+            dependencies: []),
+        .target(
+            name: "Package2",
             dependencies: []),
         .testTarget(
             name: "MyLibrariesTests",
