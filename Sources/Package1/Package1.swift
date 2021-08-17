@@ -1,7 +1,7 @@
-public struct MyLibraries {
+public struct Package1 {
     var text = "Hello, World!"
     
     public static func myPackageName() -> String {
-        return "My Libraries"
+        return "Package1"
     }
 }
