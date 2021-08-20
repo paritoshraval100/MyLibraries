@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "SwiftZip",
-        "repositoryURL": "https://github.com/SwiftZip/SwiftZip.git",
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {
           "branch": null,
-          "revision": "97c2303d0fcc0bb6ae78a93ee10bdb91a1467c8f",
-          "version": "0.0.5"
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
         }
       }
     ]
