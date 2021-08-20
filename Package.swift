@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "Package1",
             dependencies: [
-
+                "Files"
             ]),
         .target(
             name: "Package2",
